@@ -4,9 +4,9 @@
     "label": "Software Engineering Researcher",
     "image": "",
     "email": "pooya.rostami.m@gmail.com",
-    "phone": "(+32) 495 84 60 22",
+    "phone": "",
     "url": "https://pooya-rostami.github.io",
-    "summary": "PhD researcher in software engineering focused on AI for software engineering, software repository mining, and empirical studies of CI/CD and DevOps workflows.",
+    "summary": "PhD researcher in software engineering focused on software engineering, software repository mining, and empirical studies of CI/CD and DevOps workflows.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -177,14 +177,14 @@
       "title": "ICSME Distinguished Paper Award",
       "date": "2022-01-01",
       "awarder": "IEEE International Conference on Software Maintenance and Evolution (ICSME)",
-      "url": "",
+      "url": "https://cyprusconferences.org/icsme2022/",
       "summary": "Distinguished paper award for work on the use of GitHub Actions in software development repositories."
     },
     {
       "title": "MSR Best Hackathon Paper Award",
       "date": "2022-01-01",
       "awarder": "Mining Software Repositories (MSR)",
-      "url": "",
+      "url": "https://conf.researchr.org/info/msr-2022/awards",
       "summary": "Best hackathon paper award for work on bot detection in GitHub repositories."
     }
   ],
@@ -327,7 +327,7 @@
       ],
       "startDate": "2024-01-01",
       "endDate": "",
-      "url": ""
+      "url": "https://github.com/sgl-umons/gawd"
     }
   ]
 }
