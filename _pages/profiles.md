@@ -1,8 +1,8 @@
----
+<!-- ---
 layout: profiles
 permalink: /people/
 title: people
-description: members of the lab or group
+# description: members of the lab or group
 nav: true
 nav_order: 7
 
@@ -11,18 +11,19 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    content: general_info.md
+    image_circular: true # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
----
+      <p>PhD student</p>
+      <p>University of Mons</p>
+      <p>Belgium, Mons</p>
+      <p>pooya[DOT]rostami[DOT]m[AT]gmail[DOT]com</p>
+  # - align: left
+  #   image: prof_pic.jpg
+  #   content: about_einstein.md
+  #   image_circular: false # crops the image to make it circular
+  #   more_info: >
+  #     <p>555 your office number</p>
+  #     <p>123 your address street</p>
+  #     <p>Your City, State 12345</p>
+--- -->

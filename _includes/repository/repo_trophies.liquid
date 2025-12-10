@@ -1,42 +1,57 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <span class="d-none d-sm-none d-md-block">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6"
-      >
-    </span>
+{% comment %}
+Text-only GitHub "trophy" summary for {{ include.username }}
+No images, no external badges, API-only.
+{% endcomment %}
 
-    <span class="d-none d-sm-block d-md-none">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4"
-      >
-    </span>
+{% assign username = include.username %}
 
-    <span class="d-block d-sm-none">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="https://github-profile-trophy.vercel.app/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3"
-      >
-    </span>
-  </a>
+<div class="text-trophies p-2">
+
+  <div id="trophies-{{ username | replace: '-', '_' }}"></div>
+
+  <script>
+    async function loadTextTrophies_{{ username | replace: '-', '_' }}() {
+      const user = "{{ username }}";
+      const endpointUser = `https://api.github.com/users/${user}`;
+      const endpointRepos = `https://api.github.com/users/${user}/repos?per_page=100`;
+
+      try {
+        const [userRes, reposRes] = await Promise.all([
+          fetch(endpointUser),
+          fetch(endpointRepos)
+        ]);
+
+        const userData = await userRes.json();
+        const reposData = await reposRes.json();
+
+        // Calculate text metrics
+        const totalStars = reposData.reduce((sum, r) => sum + (r.stargazers_count || 0), 0);
+        const totalForks = reposData.reduce((sum, r) => sum + (r.forks_count || 0), 0);
+        const repoCount = reposData.length;
+
+        const container = document.getElementById("trophies-{{ username | replace: '-', '_' }}");
+
+        container.innerHTML = `
+          <div class="trophy-block">
+            <strong>${user}</strong><br>
+            <ul class="list-unstyled trophy-list">
+              <li><strong>Public Repositories:</strong> ${repoCount}</li>
+              <li><strong>Total Stars:</strong> ${totalStars}</li>
+              <li><strong>Total Forks:</strong> ${totalForks}</li>
+              <li><strong>Followers:</strong> ${userData.followers}</li>
+              <li><strong>Following:</strong> ${userData.following}</li>
+              <li><strong>Account Created:</strong> ${userData.created_at.substring(0, 10)}</li>
+            </ul>
+          </div>
+        `;
+      } catch (e) {
+        console.error(e);
+        const container = document.getElementById("trophies-{{ username | replace: '-', '_' }}");
+        container.innerHTML = "<em>Unable to load GitHub stats.</em>";
+      }
+    }
+
+    loadTextTrophies_{{ username | replace: '-', '_' }}();
+  </script>
+
 </div>
