@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2025-12-31'
+  last_updated: '2026-01-07'
 papers:
   FRhphAoAAAAJ:0EnyYjriUFMC:
-    citations: 23
+    citations: 24
     title: The GitHub development workflow automation ecosystems
     year: '2023'
   FRhphAoAAAAJ:4DMP91E08xMC:
@@ -46,6 +46,6 @@ papers:
     title: On the Use of GitHub Actions in Software Development Repositories
     year: '2022'
   FRhphAoAAAAJ:ufrVoPGSRksC:
-    citations: 14
+    citations: 15
     title: Bot detection in GitHub repositories
     year: '2022'
