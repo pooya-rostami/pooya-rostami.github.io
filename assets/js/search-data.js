@@ -53,16 +53,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-my-paper-an-empirical-study-of-the-evolution-of-github-actions-workflows-has-accepted-in-the-journal-of-systems-amp-amp-software-jss",
+          title: 'My paper “An Empirical Study of the Evolution of GitHub Actions Workflows” has...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
