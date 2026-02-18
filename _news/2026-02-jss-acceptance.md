@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-My paper "An Empirical Study of the Evolution of GitHub Actions Workflows" has accepted in The Journal of Systems & Software (JSS)
+New paper [An Empirical Study of the Evolution of GitHub Actions Workflows](https://doi.org/10.48550/arXiv.2602.14572) accepted @ Journal of Systems & Software (**JSS**)

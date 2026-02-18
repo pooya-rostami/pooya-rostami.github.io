@@ -177,11 +177,16 @@
 
   "volunteer": [
     {
-      "organization": "International Conference on Technical Debt (TechDebt 2026)",
-      "position": "Junior Program Committee Member",
-      "startDate": "2025-11-01",
-      "endDate": "2026-01-01",
-      "summary": "Junior PC member for TechDebt 2026."
+      "position": "Journal Reviewer",
+      "startDate": "2023-05",
+      "endDate": "",
+      "summary": "<ul><li>Journal of Systems and Software (JSS)</li><li>Empirical Software Engineering (EMSE)</li></ul>"
+    },
+    {
+      "position": "Program Committee Member",
+      "startDate": "2025-11",
+      "endDate": "",
+      "summary": "<ul><li><a href=\"https://conf.researchr.org/track/TechDebt-2026/TechDebt-2026-junior-program-committee\" target=\"_blank\">TechDebt 2026</a> — Junior</li> <li><a href=\"https://benevol2026.github.io/\" target=\"_blank\">BENEVOL 2026</a></li></ul>"
     },
     {
       "organization": "BENEVOL 2022",
@@ -190,18 +195,6 @@
       "endDate": "2022-09-21",
       "summary": "Workshop publicity chair responsible for website and communications."
     },
-    {
-      "organization": "Journal of Systems and Software (JSS)",
-      "position": "Reviewer",
-      "startDate": "2023-05",
-      "endDate": ""
-    },
-    {
-      "organization": "Journal of Empirical Software Engineering (EMSE)",
-      "position": "Reviewer",
-      "startDate": "2026-01",
-      "endDate": ""
-      },
     {
       "organization": "PhD Month (UMONS)",
       "position": "Lecturer",
