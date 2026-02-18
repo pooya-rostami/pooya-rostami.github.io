@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-21'
+  last_updated: '2026-02-18'
 papers:
   FRhphAoAAAAJ:0EnyYjriUFMC:
     citations: 25
@@ -22,7 +22,7 @@ papers:
     title: 'Linkformer: Automatic contextualised link recovery of software artifacts in both project-based and transfer learning settings'
     year: '2022'
   FRhphAoAAAAJ:YsMSGLbcyi4C:
-    citations: 30
+    citations: 33
     title: Automated Recovery of Issue-Commit Links Leveraging Both Textual and Non-textual Data
     year: '2021'
   FRhphAoAAAAJ:aqlVkmm33-oC:
@@ -34,7 +34,7 @@ papers:
     title: Predictive Modelling of Socio-Technical Health in Evolving Software Packaging Ecosystems
     year: '2021'
   FRhphAoAAAAJ:hqOjcs7Dif8C:
-    citations: 71
+    citations: 82
     title: 'On the usage, co-usage and migration of CI/CD tools: A qualitative analysis'
     year: '2023'
   FRhphAoAAAAJ:mVmsd5A6BfQC:
@@ -42,7 +42,7 @@ papers:
     title: An Empirical Study of the Evolution of Github Actions Workflows
     year: Unknown Year
   FRhphAoAAAAJ:roLk4NBRz8UC:
-    citations: 110
+    citations: 117
     title: On the Use of GitHub Actions in Software Development Repositories
     year: '2022'
   FRhphAoAAAAJ:ufrVoPGSRksC:
