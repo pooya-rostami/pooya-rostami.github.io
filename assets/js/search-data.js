@@ -53,8 +53,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-paper-an-empirical-study-of-the-evolution-of-github-actions-workflows-has-accepted-in-the-journal-of-systems-amp-amp-software-jss",
-          title: 'My paper “An Empirical Study of the Evolution of GitHub Actions Workflows” has...',
+            },},{id: "news-new-paper-an-empirical-study-of-the-evolution-of-github-actions-workflows-accepted-journal-of-systems-amp-amp-software-jss",
+          title: 'New paper An Empirical Study of the Evolution of GitHub Actions Workflows accepted...',
+          description: "",
+          section: "News",},{id: "news-invited-as-a-pc-member-belgium-netherlands-software-evolution-workshop-benevol-2026",
+          title: 'Invited as a PC member @ Belgium-Netherlands Software Evolution Workshop (BENEVOL 2026)',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
