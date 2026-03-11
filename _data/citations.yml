@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-03-11'
 papers:
   FRhphAoAAAAJ:0EnyYjriUFMC:
-    citations: 26
+    citations: 27
     title: The GitHub development workflow automation ecosystems
     year: '2023'
   FRhphAoAAAAJ:4DMP91E08xMC:
@@ -38,7 +38,7 @@ papers:
     title: Predictive Modelling of Socio-Technical Health in Evolving Software Packaging Ecosystems
     year: '2021'
   FRhphAoAAAAJ:hqOjcs7Dif8C:
-    citations: 84
+    citations: 85
     title: 'On the usage, co-usage and migration of CI/CD tools: A qualitative analysis'
     year: '2023'
   FRhphAoAAAAJ:roLk4NBRz8UC:
