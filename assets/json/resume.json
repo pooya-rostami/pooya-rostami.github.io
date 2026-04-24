@@ -180,7 +180,7 @@
       "position": "Journal Reviewer",
       "startDate": "2023-05",
       "endDate": "",
-      "summary": "<ul><li>Journal of Systems and Software (JSS)</li><li>Empirical Software Engineering (EMSE)</li></ul>"
+      "summary": "<ul><li>Journal of Systems and Software (JSS)</li><li>Empirical Software Engineering (EMSE)</li><li>Science of Computer Programming (SCICO)</li></ul>"
     },
     {
       "position": "Program Committee Member",
@@ -206,36 +206,43 @@
 
   "publications": [
     {
+      "name": "An Empirical Study of the Evolution of GitHub Actions Workflows",
+      "authors": "P. Rostami Mazrae, A. Decan, T. Mens, M. Wessel",
+      "publisher": "Journal of Systems and Software (JSS)",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1016/j.jss.2026.112824"
+    },
+    {
       "name": "gawd: A Differencing Tool for GitHub Actions Workflows",
-      "authors": "P. Rostami, A. Decan, T. Mens",
+      "authors": "P. Rostami Mazrae, A. Decan, T. Mens",
       "publisher": "Mining Software Repositories (MSR)",
       "releaseDate": "2024",
       "url": "https://doi.org/10.1145/3643991.3644873"
     },
     {
       "name": "The GitHub Development Workflow Automation Ecosystems",
-      "authors": "M. Wessel, T. Mens, A. Decan, P. Rostami",
+      "authors": "M. Wessel, T. Mens, A. Decan, P. Rostami Mazrae",
       "publisher": "Software Ecosystems: Tooling and Analytics, Springer",
       "releaseDate": "2023",
       "url": "https://doi.org/10.1007/978-3-031-36060-2_8"
     },
     {
       "name": "On the usage, co-usage and migration of CI/CD tools: a qualitative analysis",
-      "authors": "P. Rostami, T. Mens, A. Decan, M. Golzadeh",
+      "authors": "P. Rostami Mazrae, T. Mens, A. Decan, M. Golzadeh",
       "publisher": "Empirical Software Engineering",
       "releaseDate": "2023",
       "url": "https://doi.org/10.1007/s10664-022-10285-5"
     },
     {
       "name": "On the Use of GitHub Actions in Software Development Repositories",
-      "authors": "A. Decan, T. Mens, P. Rostami, M. Golzadeh",
+      "authors": "A. Decan, T. Mens, P. Rostami Mazrae, M. Golzadeh",
       "publisher": "ICSME",
       "releaseDate": "2022",
       "url": "https://doi.org/10.1109/ICSME55016.2022.00029"
     },
     {
       "name": "Automated Recovery of Issue-Commit Links Leveraging Both Textual and Non-textual Data",
-      "authors": "P. Rostami, M. Izadi, A. Heydarnoori",
+      "authors": "P. Rostami Mazrae, M. Izadi, A. Heydarnoori",
       "publisher": "ICSME",
       "releaseDate": "2021",
       "url": "https://doi.org/10.1109/ICSME52107.2021.00030"
