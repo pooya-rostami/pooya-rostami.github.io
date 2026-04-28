@@ -260,6 +260,12 @@
 
   "awards": [
     {
+      "title": "FNRS Mobility Funding Inside Europe",
+      "date": "2022",
+      "awarder": "Fonds de la Recherche Scientifique (FNRS)",
+      "summary": "Received a mobility grant of 5,950 euros for a research stay at Radboud University in the Netherlands."
+    },
+    {
       "title": "ICSME Distinguished Paper Award",
       "date": "2022",
       "awarder": "IEEE International Conference on Software Maintenance and Evolution"
