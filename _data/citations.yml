@@ -1,17 +1,21 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-05-20'
 papers:
   FRhphAoAAAAJ:0EnyYjriUFMC:
-    citations: 27
+    citations: 29
     title: The GitHub development workflow automation ecosystems
     year: '2023'
   FRhphAoAAAAJ:4DMP91E08xMC:
-    citations: 2
+    citations: 3
     title: An Empirical Study on Data Leakage and Generalizability of Link Prediction Models for Issues and Commits
     year: '2022'
   FRhphAoAAAAJ:7PzlFSSx8tAC:
-    citations: 0
+    citations: 1
     title: An Empirical Study of the Evolution of GitHub Actions Workflows
+    year: '2026'
+  FRhphAoAAAAJ:L8Ckcad2t8MC:
+    citations: 0
+    title: Understanding the Evolution of GitHub Actions Automation Workflows
     year: '2026'
   FRhphAoAAAAJ:LkGwnXOMwfcC:
     citations: 1
@@ -26,11 +30,11 @@ papers:
     title: 'Linkformer: Automatic contextualised link recovery of software artifacts in both project-based and transfer learning settings'
     year: '2022'
   FRhphAoAAAAJ:YsMSGLbcyi4C:
-    citations: 33
+    citations: 34
     title: Automated Recovery of Issue-Commit Links Leveraging Both Textual and Non-textual Data
     year: '2021'
   FRhphAoAAAAJ:aqlVkmm33-oC:
-    citations: 3
+    citations: 5
     title: 'gawd: A Differencing Tool for GitHub Actions Workflows'
     year: '2024'
   FRhphAoAAAAJ:eQOLeE2rZwMC:
@@ -38,14 +42,14 @@ papers:
     title: Predictive Modelling of Socio-Technical Health in Evolving Software Packaging Ecosystems
     year: '2021'
   FRhphAoAAAAJ:hqOjcs7Dif8C:
-    citations: 91
+    citations: 101
     title: 'On the usage, co-usage and migration of CI/CD tools: A qualitative analysis'
     year: '2023'
   FRhphAoAAAAJ:roLk4NBRz8UC:
-    citations: 125
+    citations: 136
     title: On the Use of GitHub Actions in Software Development Repositories
     year: '2022'
   FRhphAoAAAAJ:ufrVoPGSRksC:
-    citations: 15
+    citations: 16
     title: Bot detection in GitHub repositories
     year: '2022'
