@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-05-25'
 papers:
   FRhphAoAAAAJ:0EnyYjriUFMC:
     citations: 29
@@ -22,7 +22,7 @@ papers:
     title: Empirical Analysis of the GitHub Actions ecosystem
     year: '2022'
   FRhphAoAAAAJ:MXK_kJrjxJIC:
-    citations: 5
+    citations: 4
     title: A Preliminary Study of GitHub Actions Workflow Changes
     year: '2023'
   FRhphAoAAAAJ:Se3iqnhoufwC:
@@ -30,11 +30,11 @@ papers:
     title: 'Linkformer: Automatic contextualised link recovery of software artifacts in both project-based and transfer learning settings'
     year: '2022'
   FRhphAoAAAAJ:YsMSGLbcyi4C:
-    citations: 34
+    citations: 35
     title: Automated Recovery of Issue-Commit Links Leveraging Both Textual and Non-textual Data
     year: '2021'
   FRhphAoAAAAJ:aqlVkmm33-oC:
-    citations: 5
+    citations: 4
     title: 'gawd: A Differencing Tool for GitHub Actions Workflows'
     year: '2024'
   FRhphAoAAAAJ:eQOLeE2rZwMC:
@@ -46,7 +46,7 @@ papers:
     title: 'On the usage, co-usage and migration of CI/CD tools: A qualitative analysis'
     year: '2023'
   FRhphAoAAAAJ:roLk4NBRz8UC:
-    citations: 136
+    citations: 137
     title: On the Use of GitHub Actions in Software Development Repositories
     year: '2022'
   FRhphAoAAAAJ:ufrVoPGSRksC:
