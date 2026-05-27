@@ -48,12 +48,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-new-paper-an-empirical-study-of-the-evolution-of-github-actions-workflows-accepted-journal-of-systems-amp-amp-software-jss",
+      },{id: "news-new-paper-an-empirical-study-of-the-evolution-of-github-actions-workflows-accepted-journal-of-systems-amp-amp-software-jss",
           title: 'New paper An Empirical Study of the Evolution of GitHub Actions Workflows accepted...',
           description: "",
           section: "News",},{id: "news-invited-as-a-pc-member-belgium-netherlands-software-evolution-workshop-benevol-2026",
@@ -62,21 +57,14 @@ ninja.data = [{
           section: "News",},{id: "news-i-am-delighted-to-announce-that-i-have-successfully-defended-my-phd-thesis-and-officially-obtained-my-phd-degree",
           title: 'I am delighted to announce that I have successfully defended my PhD thesis...',
           description: "",
+          section: "News",},{id: "news-i-am-delighted-to-announce-that-i-have-started-my-postdoc-position-in-distrinet-group-in-ku-leuven-group-t-under-the-supervision-of-prof-bert-lagaisse",
+          title: 'I am delighted to announce that I have started my PostDoc position in...',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-cv',
         title: 'CV',
