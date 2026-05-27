@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>PhD student</p>
-    <p>University of Mons</p>
-    <p>Belgium, Mons</p>
+    <p>PostDoctoral Researcher</p>
+    <p>KU Leuven, Belgium</p>
     <p>pooya[DOT]rostami[DOT]m[AT]gmail[DOT]com</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

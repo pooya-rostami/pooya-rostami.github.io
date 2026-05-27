@@ -3,14 +3,14 @@
     "name": "Pooya Rostami Mazrae",
     "label": "Software Engineering Researcher",
     "image": "",
-    "email": "pooya.rostami.m@gmail.com",
+    "email": "pooya[dot]rostami[dot]m[at]gmail[dot]com",
     "phone": "",
     "url": "https://pooya-rostami.github.io",
-    "summary": "PhD researcher in software engineering focused on software repository mining, empirical studies of CI/CD and DevOps workflows, and automation ecosystems.",
+    "summary": "PostDoctoral Researcher in Software Engineering with a focus on secure use of Agentic AI in software development processes.",
     "location": {
-      "city": "Mons",
+      "city": "Brussels",
       "countryCode": "BE",
-      "region": "Hainaut"
+      "region": "Brussels"
     },
     "profiles": [
       {
@@ -63,11 +63,22 @@
 
   "work": [
     {
+      "name": "KU Leuven",
+      "position": "PostDoctoral Researcher",
+      "url": "https://dnet-gt.github.io/",
+      "startDate": "2026-05-15",
+      "endDate": "",
+      "summary": "Funded PostDoctoral researcher at the Distrinet KU Leuven Group T Lab.",
+      "highlights": [
+        "PostDoctoral research on the secure use of agentic AI in software development."
+      ]
+    },
+    {
       "name": "University of Mons (UMONS)",
       "position": "PhD Researcher",
       "url": "https://web.umons.ac.be",
       "startDate": "2021-10-21",
-      "endDate": "2026-04-30",
+      "endDate": "2026-05-05",
       "summary": "Funded PhD researcher at the Software Engineering Lab (SEL).",
       "highlights": [
         "Doctoral research on the evolution of GitHub Actions automation workflows and CI/CD ecosystems.",
@@ -94,11 +105,19 @@
 
   "research_experience": [
     {
+      "institution": "KU Leuven",
+      "role": "PostDoctoral Researcher",
+      "group": "Distrinet KU Leuven Group T Lab",
+      "startDate": "2026-05-15",
+      "endDate": "",
+      "summary": "PostDoctoral research on the secure use of agentic AI in software development."
+    },
+    {
       "institution": "University of Mons (UMONS)",
       "role": "PhD Researcher",
       "group": "Software Engineering Lab (SEL)",
       "startDate": "2026-01-06",
-      "endDate": "2026-04-04",
+      "endDate": "2026-05-05",
       "summary": "Continuation phase of PhD research focusing on dissertation finalization and defense preparation."
     },
     {
@@ -180,7 +199,7 @@
       "position": "Journal Reviewer",
       "startDate": "2023-05",
       "endDate": "",
-      "summary": "<ul><li>Journal of Systems and Software (JSS)</li><li>Empirical Software Engineering (EMSE)</li><li>Science of Computer Programming (SCICO)</li></ul>"
+      "summary": "<ul><li>Journal of Systems and Software <a href=\"https://orcid.org/my-orcid?orcid=0000-0002-4859-1546\" target=\"_blank\">(JSS)</a></li><li>Empirical Software Engineering <a href=\"https://orcid.org/my-orcid?orcid=0000-0002-4859-1546\" target=\"_blank\">(EMSE)</a></li><li>Science of Computer Programming <a href=\"https://orcid.org/my-orcid?orcid=0000-0002-4859-1546\" target=\"_blank\">(SCICO)</a></li><li>Transactions on Software Engineering <a href=\"https://www.webofscience.com/wos/author/record/QIR-7941-2026\" target=\"_blank\">(TSE)</a></li></ul>"
     },
     {
       "position": "Program Committee Member",
@@ -279,15 +298,15 @@
 
   "certificates": [
     {
-      "name": "AWS Certified Solutions Architect - Associate",
+      "name": "AWS Solutions Architect - Associate",
       "date": "2025-05",
-      "issuer": "Amazon Web Services",
+      "issuer": "AWS",
       "url": "https://www.credly.com/badges/0db7e80d-1a63-45da-9501-fe17a607f6cf"
     },
     {
-      "name": "AWS Certified Cloud Practitioner",
+      "name": "AWS Cloud Practitioner",
       "date": "2025-02",
-      "issuer": "Amazon Web Services",
+      "issuer": "AWS",
       "url": "https://www.credly.com/badges/42d89f68-b12b-4b50-b38c-3f5fb79423bf"
     },
     {
