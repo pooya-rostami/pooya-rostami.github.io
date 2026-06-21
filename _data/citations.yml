@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-25'
+  last_updated: '2026-06-15'
 papers:
   FRhphAoAAAAJ:0EnyYjriUFMC:
     citations: 29
@@ -10,7 +10,7 @@ papers:
     title: An Empirical Study on Data Leakage and Generalizability of Link Prediction Models for Issues and Commits
     year: '2022'
   FRhphAoAAAAJ:7PzlFSSx8tAC:
-    citations: 1
+    citations: 3
     title: An Empirical Study of the Evolution of GitHub Actions Workflows
     year: '2026'
   FRhphAoAAAAJ:L8Ckcad2t8MC:
@@ -22,7 +22,7 @@ papers:
     title: Empirical Analysis of the GitHub Actions ecosystem
     year: '2022'
   FRhphAoAAAAJ:MXK_kJrjxJIC:
-    citations: 4
+    citations: 5
     title: A Preliminary Study of GitHub Actions Workflow Changes
     year: '2023'
   FRhphAoAAAAJ:Se3iqnhoufwC:
@@ -34,7 +34,7 @@ papers:
     title: Automated Recovery of Issue-Commit Links Leveraging Both Textual and Non-textual Data
     year: '2021'
   FRhphAoAAAAJ:aqlVkmm33-oC:
-    citations: 4
+    citations: 5
     title: 'gawd: A Differencing Tool for GitHub Actions Workflows'
     year: '2024'
   FRhphAoAAAAJ:eQOLeE2rZwMC:
@@ -46,7 +46,7 @@ papers:
     title: 'On the usage, co-usage and migration of CI/CD tools: A qualitative analysis'
     year: '2023'
   FRhphAoAAAAJ:roLk4NBRz8UC:
-    citations: 137
+    citations: 138
     title: On the Use of GitHub Actions in Software Development Repositories
     year: '2022'
   FRhphAoAAAAJ:ufrVoPGSRksC:
