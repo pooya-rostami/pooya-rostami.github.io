@@ -13,6 +13,15 @@ Below is an overview of the courses I have taught across multiple universities, 
 
 ---
 
+### Object Oriented Programming - Java (Bachelor Level)
+**Faculty of Technology, KU Leuven, Group T**   
+**Period:** Sept 2026 – Dec 2026
+
+- Holding TP (lab) session aligned with course objectives. 
+- Evaluated students based on TP performance, project deliverables, and final presentations.
+
+---
+
 ### Software Evolution (Master Level)
 **Faculty of Sciences, University of Mons (UMONS)**  
 **Years:** 2022, 2023, 2024 (Feb–May; dates vary by academic year)
